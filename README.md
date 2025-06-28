@@ -1,33 +1,37 @@
-# Fart Simulator
+# 💨 Fart Simulator 💨
 
-**Attention :** Ce script fonctionne uniquement sur macOS car il utilise la commande `say` pour la synthèse vocale.
+**Warning:** This script only works on macOS as it uses the `say` command for text-to-speech synthesis.
 
-Un simple script shell pour simuler un son de pet. Pour le plaisir et les blagues.
+A simple shell script to simulate fart sounds 💨. For fun and pranks! 😂
 
-## Prérequis
+## Prerequisites 📋
 
-- **macOS** (pour la commande `say`).
-- Un environnement shell compatible (comme Bash).
+- **macOS** (for the `say` command).
+- A compatible shell environment (like Bash).
 
-## Installation
+## Installation 🛠️
 
-1. Clonez ce dépôt ou téléchargez le script `fartsimulator.sh`.
-2. Rendez le script exécutable :
+1. Clone this repository or download the `fartsimulator.sh` script.
+2. Make the script executable:
+
    ```bash
    chmod +x fartsimulator.sh
    ```
 
-## Utilisation
+## Usage 🚀
 
-Exécutez simplement le script depuis votre terminal :
+Simply run the script from your terminal:
+
 ```bash
 ./fartsimulator.sh
 ```
 
-## Contribuer
+Get ready to laugh! 💨😂
 
-Les contributions sont les bienvenues ! N'hésitez pas à ouvrir une issue ou une pull request.
+## Contributing 🤝
 
-## Licence
+Contributions are welcome! Feel free to open an issue or pull request. 💨
 
-Ce projet est sous licence MIT.
+## License 📄
+
+This project is licensed under the MIT License.
