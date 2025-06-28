@@ -22,6 +22,7 @@ while true; do
 
     # "Dire" le son du pet avec la voix choisie
     say -v "$random_voice" "$random_sound"
+    echo "💨"
 
     # Attendre un court instant aléatoire avant le prochain son
     sleep_duration=$(echo "scale=2; $RANDOM/16384.0 + 0.5" | bc)
