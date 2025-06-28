@@ -1,12 +1,19 @@
 # 💨 Fart Simulator 💨
 
-**Warning:** This script only works on macOS as it uses the `say` command for text-to-speech synthesis.
+**Warning:** This script works on macOS and can use either realistic MP3 sounds or the `say` command for text-to-speech synthesis.
 
 A simple shell script to simulate fart sounds 💨. For fun and pranks! 😂
 
+## Features ✨
+
+- 🔊 **Realistic MP3 playback** - Add your own fart sound MP3 files for maximum realism
+- 🗣️ **Text-to-speech fallback** - Uses macOS `say` command with funny voices if no MP3 files
+- 🎲 **Random selection** - Randomly picks sounds and voices for variety
+- ⏱️ **Variable timing** - Random delays between sounds for natural feel
+
 ## Prerequisites 📋
 
-- **macOS** (for the `say` command).
+- **macOS** (for the `afplay` and `say` commands).
 - A compatible shell environment (like Bash).
 
 ## Installation 🛠️
@@ -20,11 +27,29 @@ A simple shell script to simulate fart sounds 💨. For fun and pranks! 😂
 
 ## Usage 🚀
 
+### Basic Usage
+
 Simply run the script from your terminal:
 
 ```bash
 ./fartsimulator.sh
 ```
+
+### Adding Realistic Sounds 🔊
+
+For maximum realism, add MP3 fart sound files to the `sounds/` directory:
+
+1. Create or download fart sound MP3 files
+2. Place them in the `sounds/` directory
+3. Run the script - it will automatically detect and use the MP3 files!
+
+**Example MP3 filenames:**
+
+- `fart_01.mp3`
+- `wet_fart.mp3`
+- `squeaky_toot.mp3`
+
+The script will tell you which mode it's using when you start it! 💨
 
 Get ready to laugh! 💨😂
 
